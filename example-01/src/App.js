@@ -6,10 +6,11 @@ import { Page } from './component/Page';
 import { NumberList } from './component/NumberList';
 import { NameForm } from './component/NameForm';
 import { FlavorForm } from './component/FlavorForm';
+import { Reservation } from './component/Reservation';
 
 function App() {
-  const messages = ['React','Re: React','Re:Re: React'];
-  const numbers = [1,2,3,4,5,6];
+  const messages = ['React', 'Re: React', 'Re:Re: React'];
+  const numbers = [1, 2, 3, 4, 5, 6];
   return (
     <div>
       <Clock />
@@ -22,6 +23,7 @@ function App() {
       <NumberList numbers={numbers} />
       <NameForm />
       <FlavorForm />
+      <Reservation />
     </div>
   );
 }
