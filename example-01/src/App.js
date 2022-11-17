@@ -7,6 +7,7 @@ import { NumberList } from './component/NumberList';
 import { NameForm } from './component/NameForm';
 import { FlavorForm } from './component/FlavorForm';
 import { Reservation } from './component/Reservation';
+import { Calculator } from './component/Calculator';
 
 function App() {
   const messages = ['React', 'Re: React', 'Re:Re: React'];
@@ -24,6 +25,7 @@ function App() {
       <NameForm />
       <FlavorForm />
       <Reservation />
+      <Calculator />
     </div>
   );
 }
