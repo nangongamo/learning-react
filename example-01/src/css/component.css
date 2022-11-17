@@ -6,3 +6,13 @@
     background-color:deepskyblue;
     border-color:white;
 }
+
+.msg-count {
+    font-size: 26px;
+    color: red;
+}
+
+.warning {
+    background-color: moccasin;
+    width: 200px;
+}
