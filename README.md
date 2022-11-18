@@ -1,5 +1,3 @@
-
-
 # Learning-React
 
 ## 官方实例
@@ -18,6 +16,8 @@
 - [x] 表单
 - [x] 状态提升
 - [x] 组合 vs 继承
-- [ ] React 哲学
+- [x] React 哲学
 
  **Example**
+
+[thinking-in-react](./thinking-in-react)
