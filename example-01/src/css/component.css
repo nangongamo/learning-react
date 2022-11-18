@@ -1,10 +1,9 @@
-
 .btn-demo {
     width: 60px;
     margin-left: 10px;
     margin-top: 10px;
-    background-color:deepskyblue;
-    border-color:white;
+    background-color: deepskyblue;
+    border-color: white;
 }
 
 .msg-count {
@@ -15,4 +14,35 @@
 .warning {
     background-color: moccasin;
     width: 200px;
+}
+
+.FancyBorder {
+    margin-left: 20px;
+    width: 450px;
+    border: 1px solid red;
+    background-color: lightgray;
+}
+.FancyBorder input{
+    margin: 10px 60px;
+}
+
+.FancyBorder-blue {
+    color: blue;
+}
+
+.chat {
+    margin-left: 20px;
+    width: 450px;
+    background-color: aquamarine;
+}
+
+.Dialog-title {
+    font-size: 26px;
+    text-align: center;
+    color: #000;
+}
+
+.Dialog-message {
+    font-size: 16px;
+    text-align: center;
 }

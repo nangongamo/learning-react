@@ -8,6 +8,8 @@ import { NameForm } from './component/NameForm';
 import { FlavorForm } from './component/FlavorForm';
 import { Reservation } from './component/Reservation';
 import { Calculator } from './component/Calculator';
+import { WelcomeDialog, SignUpDialog } from './component/WelcomeDialog';
+import { SplitPane } from './component/SplitPane';
 
 function App() {
   const messages = ['React', 'Re: React', 'Re:Re: React'];
@@ -23,9 +25,19 @@ function App() {
       <Page />
       <NumberList numbers={numbers} />
       <NameForm />
+      <br />
       <FlavorForm />
+      <br />
       <Reservation />
+      <br />
       <Calculator />
+      <br />
+      <WelcomeDialog />
+      <br />
+      <SplitPane />
+      <br />
+      <SignUpDialog />
+      <br />
     </div>
   );
 }
