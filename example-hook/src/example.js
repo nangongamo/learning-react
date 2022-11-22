@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 function Example() {
 
@@ -19,4 +19,17 @@ function Example() {
     );
 }
 
-export { Example }
+function TextInputWithFocusButton(){
+    const inputEl = useRef(null);
+    const onButtonClick = () => {
+        inputEl.current.focus();
+    };
+    return (
+        <>
+            <input ref={inputEl} type="text"/>
+            <button onClick={onButtonClick}>Focus the input</button>
+        </>
+    );
+}
+
+export { Example,TextInputWithFocusButton}
